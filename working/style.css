@@ -1,0 +1,13 @@
+#container {
+    position: relative;
+    width: 500px; /* Adjust according to your image */
+    height: 400px; /* Adjust according to your image */
+    overflow: hidden;
+}
+
+#marquee {
+    position: absolute;
+    border: 2px dashed #ff0000;
+    pointer-events: none; /* Make sure marquee doesn't interfere with mouse events */
+    z-index: 999; /* Make sure it's on top of everything */
+}

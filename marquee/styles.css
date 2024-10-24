@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#image-container {
+    position: relative;
+    display: inline-block;
+}
+
+#satellite-image {
+    width: 800px; /* Adjust as needed */
+    height: auto;
+}
+
+#selection-box {
+    position: absolute;
+    border: 2px dashed #000;
+    background-color: rgba(0, 0, 255, 0.2);
+    pointer-events: none;
+    display: none;
+}
